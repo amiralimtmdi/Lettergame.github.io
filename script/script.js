@@ -100,7 +100,8 @@ function start() {
 // function click on check btn (clicking Event)
 function check() {
   // changes after that answer was true
-  if (input.value.toLowerCase() === words[randomPickWord]) {
+  input.value = input.value.toLowerCase();
+  if (input.value == words[randomPickWord]) {
     input.style.border = "4px solid #068205";
     input.style.backgroundColor = "#0e4d1682";
     score.textContent = Number(score.textContent) + 10; //icrease score
