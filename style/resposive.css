@@ -1,0 +1,26 @@
+@media only screen and (max-width: 490px) {
+  .nav__right {
+    flex-direction: column-reverse;
+    align-items: unset;
+    gap: unset;
+  }
+  .score {
+    margin-top: 0;
+  }
+  .title {
+    margin-top: 40px;
+  }
+  .heart {
+    width: 23px;
+  }
+  .input-flex input {
+    width: 185px;
+  }
+  .setting-icon {
+    margin: -70px 0 0 0;
+  }
+
+  .letters {
+    font-size: 39px;
+  }
+}

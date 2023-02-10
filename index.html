@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letter War</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/Yekan.css" />
+    <link rel="stylesheet" href="style/resposive.css" />
+    <link rel="stylesheet" href="style/backgrond.css" />
+    <link rel="shortcut icon" href="image/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- backgrond -->
+    <div id="particles-js"></div>
+
+    <!-- win and lose box -->
+    <div class="layer-blur hidden">
+      <div>
+        <p class="win-lose-text">You win :D</p>
+        <a href=""> <button class="btn ok-btn">bekirm</button></a>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- navbar(score , heart , setting) -->
+      <div class="navbar">
+        <!-- score and  heart -->
+        <div class="nav__right">
+          <p class="score">
+            score: <span class="score-number" style="color: #6dd5ed">0</span>
+          </p>
+          <div class="hearts">
+            <p class="heart-text">Your hearts :</p>
+            <div class="heart-img">
+              <img
+                src="image/Untitled-1.png"
+                alt="heart"
+                class="heart heart-0"
+              />
+              <img
+                src="image/Untitled-1.png"
+                alt="heart"
+                class="heart heart-1"
+              />
+              <img
+                src="image/Untitled-1.png"
+                alt="heart"
+                class="heart heart-2"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- setting menu -->
+        <img
+          src="image/icons8-einstellungen-50.png"
+          alt="setting"
+          class="setting-icon"
+          onclick="openSetting()"
+        />
+        <ul class="menu">
+          <li class="menu-item">
+            <img class="item-0 item" src="image/theme.png" alt="theme" />
+          </li>
+          <li class="menu-item">
+            <a href=""
+              ><img class="item-1 item" src="image/refresh.png" alt="refresh"
+            /></a>
+          </li>
+          <li class="menu-item">
+            <img
+              class="item-2 item"
+              src="image/happiness.png"
+              alt="happiness"
+            />
+          </li>
+          <li class="menu-item">
+            <img class="item-3 item" src="image/info.png" alt="info" />
+          </li>
+        </ul>
+      </div>
+
+      <!-- starting style box -->
+      <p class="title">Make the currect word dude</p>
+      <div class="box">
+        <div class="letters">OHME</div>
+        <div class="hint">Hint: <span class="hint-text"></span></div>
+        <p class="timer">Time left : <span class="timer-number"> 30</span></p>
+        <div class="input-flex">
+          <input
+            type="text"
+            class="input-box"
+            placeholder="Guess the word :D"
+          />
+        </div>
+        <div class="btns">
+          <a href=""><button class="btn ref-btn">refresh</button></a>
+          <button class="btn check-btn" onclick="check()">check</button>
+          <button class="btn check-btn start-btn" onclick="start()">
+            start
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- includ scripts -->
+    <script src="script/script.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="script/backgroung.js"></script>
+  </body>
+</html>
