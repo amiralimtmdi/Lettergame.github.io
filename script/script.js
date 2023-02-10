@@ -55,6 +55,7 @@ let words = [
   "gamer",
   "pornhub",
   "pussy",
+  "johny",
   "suck",
 ];
 let hints = [
@@ -107,7 +108,7 @@ function check() {
     score.textContent = Number(score.textContent) + 10; //icrease score
 
     // win the game
-    if (score.textContent >= 80) {
+    if (score.textContent >= 60) {
       winLoseBox.classList.remove("hidden");
     }
 
