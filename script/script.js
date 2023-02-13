@@ -53,14 +53,16 @@ let words = [
   "gamer",
   "pussy",
   "johny",
+  "home",
 ];
 let hints = [
   "An asshell animal",
-  "that playing that",
-  "a position of sex",
+  "a gamer play that",
+  "doing when you love someone",
   "someone who play game",
   "anothher name of cat",
   "famous actor",
+  "a place for living",
 ];
 
 // make the random picker for words
