@@ -48,27 +48,19 @@ function shufflingWord() {
 // list of words and hints
 let words = [
   "monkey",
-  "dildo",
-  "sex",
-  "dick",
-  "dogy",
+  "game",
+  "kiss",
   "gamer",
-  "pornhub",
   "pussy",
   "johny",
-  "suck",
 ];
 let hints = [
   "An asshell animal",
-  "Artifical penis",
-  "evryone loves it",
-  "another name of penis",
+  "that playing that",
   "a position of sex",
   "someone who play game",
-  "elysium for masterbaters",
-  "part of women's body",
-  "famous porn star",
-  "eating dick",
+  "anothher name of cat",
+  "famous actor",
 ];
 
 // make the random picker for words
